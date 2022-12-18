@@ -1,0 +1,7 @@
+Name:        xmlrpc_server_pstream
+Description: Xmlrpc-c packet stream XML-RPC server library
+Version:     1.54.6
+
+Requires: xmlrpc++ xmlrpc xmlrpc_server++ xmlrpc_util++ xmlrpc_util
+Libs:     -L/home/csi/m/mohamedali/cfiles/CSI4337/P6/lib -lxmlrpc_server_pstream++ -lxmlrpc_packetsocket
+Cflags:   -I/home/csi/m/mohamedali/cfiles/CSI4337/P6/include

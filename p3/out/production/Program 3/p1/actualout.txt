@@ -1,0 +1,1 @@
+Process 0 Sum: 10 [0,3] Process 1 Sum: 9 [1,3] Process 2 Sum: 7 [2,3] Maximum Sum: 10 [0,3]

@@ -1,0 +1,7 @@
+Name:        xmlrpc_server_abyss
+Description: Xmlrpc-c Abyss XML-RPC server library
+Version:     1.54.6
+
+Requires: xmlrpc xmlrpc_server xmlrpc_abyss xmlrpc_util
+Libs:     -L/home/csi/m/mohamedali/cfiles/CSI4337/P6/lib -lxmlrpc_server_abyss
+Cflags:   -I/home/csi/m/mohamedali/cfiles/CSI4337/P6/include

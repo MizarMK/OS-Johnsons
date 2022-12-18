@@ -1,0 +1,7 @@
+Name:        xmlrpc_server
+Description: Xmlrpc-c XML-RPC server library
+Version:     1.54.6
+
+Requires: xmlrpc xmlrpc_util
+Libs:     -L/home/csi/m/mohamedali/cfiles/CSI4337/P6/lib -lxmlrpc_server
+Cflags:   -I/home/csi/m/mohamedali/cfiles/CSI4337/P6/include

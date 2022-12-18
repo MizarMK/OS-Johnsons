@@ -1,0 +1,7 @@
+Name:        xmlrpc
+Description: Xmlrpc-c basic XML-RPC library
+Version:     1.54.6
+
+Requires: xmlrpc_util xmlrpc_expat
+Libs:     -L/home/csi/m/mohamedali/cfiles/CSI4337/P6/lib -lxmlrpc
+Cflags:   -I/home/csi/m/mohamedali/cfiles/CSI4337/P6/include

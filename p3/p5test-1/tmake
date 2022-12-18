@@ -1,0 +1,18 @@
+CC=g++
+CXXFLAGS=-g -std=c++11 -Wall -pedantic -Wextra
+LDFLAGS=-lpthread
+
+all: testa testb testc testd testfinal
+
+testa: buffetmutex.o util.o testa.o
+
+testb: buffetmutex.o util.o testb.o
+
+testc: buffetmutex.o util.o testc.o
+
+testd: buffetmutex.o util.o testd.o
+
+testfinal: buffetmutex.o util.o testfinal.o
+
+clean:
+	rm *.o testa testb testc testd testfinal
